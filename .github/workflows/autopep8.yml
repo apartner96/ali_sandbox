@@ -11,7 +11,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: autopep8
         id: autopep8
-        uses: apartner96/ali_sandbox@main
+        uses: peter-evans/ali_sandbox@v1
         with:
           args: --exit-code --recursive --in-place --aggressive --aggressive .
       - name: Set autopep8 branch name
