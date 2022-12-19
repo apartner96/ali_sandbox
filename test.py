@@ -5,7 +5,7 @@
 #new edit for test2
 #new edit for test3
 #new edit for test4
-#new edit for test5
+#new edit for test6
 try:
   from BODSDataExtractor.extractor import TimetableExtractor
 except:
