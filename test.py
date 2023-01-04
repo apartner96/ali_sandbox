@@ -11,6 +11,6 @@ def test_otc_db_cols():
        'licence_status', 'registration_status', 'pub_text',
        'service_type_description', 'short_notice', 'subsidies_description',
        'subsidies_details', 'auth_description', 'tao_covered_by_area',
-       'registration_code', 'service_code']
+       'registration_code', 'service_code','test_error']
 
     assert all([col in otc.columns for col in cols])
