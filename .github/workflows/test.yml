@@ -1,7 +1,11 @@
 name: Python package
 
 on:
-  pull_request
+  pull_request:
+    branches:
+    - main
+    - 'release**'
+
 
 jobs:
   build:
