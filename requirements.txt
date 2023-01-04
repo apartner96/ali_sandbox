@@ -193,4 +193,3 @@ wurlitzer==3.0.2
 xmltodict==0.13.0
 xyzservices==2022.9.0
 yapf==0.31.0
-zipp==3.8.0
